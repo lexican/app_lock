@@ -1,7 +1,3 @@
 library app_lock;
 
-/// A Calculator.
-class Calculator {
-  /// Returns [value] plus 1.
-  int addOne(int value) => value + 1;
-}
+export 'src/app_lock/app_lock.dart';
