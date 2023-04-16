@@ -1,5 +1,6 @@
 import 'package:app_lock/app_lock.dart';
 import 'package:example/features/home/home.dart';
+import 'package:example/features/lock/lock.dart';
 import 'package:flutter/material.dart';
 
 class App extends StatefulWidget {
@@ -25,8 +26,8 @@ class _AppState extends State<App> {
           },
         );
       },
-      enabled: false,
-      lockScreen: const SizedBox(),
+      enabled: true,
+      lockScreen: const Lock(),
     );
   }
 }
